@@ -22,3 +22,6 @@ def save_bert_embeding_to_npy(input_file, output_file):
 
 
 # save_bert_embeding_to_npy(ckpt_input_path, ckpt_output_path)
+
+# bert_embed = np.load(ckpt_output_path)
+# print(bert_embed.shape)   #(23283, 768) bert词表大小，词向量维度
